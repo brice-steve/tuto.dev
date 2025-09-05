@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ma premiere page</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--ici represente la tete de la page elle est püresenter par la balise header -->
+        <header>
+            <h1>HOPETECH AKADEMIE</h1>
+            <nav>
+                <!--la balise nav permet quand a elle de creer un menu deroulant ou a liste -->
+                <ul>
+                    <li><a href="dossier1/page1.html">Acceuil</a></li>
+                    <li><a href="dossier1/page2.htlm">A propos de moi </a></li>
+                    <li><a href="dossier1/page3.html">Services</a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+    <main>
+        #<!--la balise main represente le contenu principal de la page web et elle est utiliser apres la balise body -->
+        <section>
+            <!--permet de delimiter les differentes section ou partie de notre page web-->
+            <h2 class="intro1">Cat Photos</h2>
+            <p>tout le monde<a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">
+             aime les chats</a> en ligne </p>
+             <p>see more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our galerie</p>
+             <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+            alt="A cute orange cat lying on its back" title="cliquez pour voir plus"></a>
+            <!--la balise target="_blank "permet d'ouvrir le lien dans une autre fenetre -->
+        </section>
+        <section>
+            <h2>Cat Lists</h2>
+            <h3>Things cats love</h3>
+            <ul>
+                <li>catmip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate">
+                <figcaption>Cats <span class="love">love</span> lasagna</figcaption>
+            </figure>
+            <!--la balise figure permet d'encadrer un elt multimedia tel que video image etc -->
+            <!--et la balise figcaption pernmet de donner une legende a une image -->
+            <h3>Top 3 Things cats hate:</h3>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other Cats</li>
+            </ol>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="five cats lookingsd around afield">
+                <figcaption>cats <strong>hate</strong> other cats.</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Cat form</h2>
+            <!--creation de formulaire-->
+            <form action="https://freecatphotoapp.com/submit-cat-photo"" method="post">
+                <!--rensegne egale vers quel site les infos du client ou du visiteur sera envoyer ex mon email ou une base de donnee-->
+                <label for="name">Nom</label><br>
+                <input type="text" id="name" name="name" placeholder="inserer votre nom" required><br><br>
+
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="Email" placeholder="entrer votre email" required><br><br>
+                <!--permet de creer une zone de texte ou le client peut renseigner ces infos -->
+
+                <label for="massage">Message</label><br>
+                <textarea id="message" name="message" required></textarea><br><br>
+                <!--balise pour un champ pour permettre au visiteur de renseigner un message-->
+
+                <button type="submit">envoyer</button>
+                <!--permet de creer un bouton  et autre maniere <input type="submit" value="envoyer">-->
+            </form>
+
+        </section>
+
+    </main>
+</html> 

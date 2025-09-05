@@ -1,0 +1,21 @@
+.intro1{
+    color: blue;
+    text-align: left;
+}
+h1{
+    font-size: 1,3em;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background-image: url(image/abstrait-geometrique-filaire.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 100px;
+     }
+body{
+    background-color: white;
+ }
